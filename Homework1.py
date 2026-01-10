@@ -6,8 +6,8 @@ class Person:
         self.higher_education = higher_education
 
     def introduce(self):
-     education_status = 'есть' if self.higher_education else 'нет'
-     print(f'Привет! мкня зову: {self.name}. Я родился {self.brith_data} и работаю как {self.occupation} Высшее образование {education_status}.')
+      education_status = 'есть' if self.higher_education else 'нет'
+      print(f'Привет! меня зовут: {self.name}. Я родился {self.brith_data} и работаю как {self.occupation} Высшее образование {education_status}.')
 
 
 person1 = Person('Анастасия', '10.06.1990', 'менеджер', True)
