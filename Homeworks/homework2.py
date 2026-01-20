@@ -24,30 +24,30 @@ class Classmate(Person):
         print(f'Привет Меня зовут: {self.name}, я работаю {self.occupation}, я учусь в группе {self.group_name}')
 
 
-Friend1 = Friend('Максим', 'Доктор', 'Рыбалка')
-Friend2 = Friend('Анна', 'Дизайнер', 'рисование')
-Friend3 = Friend('Актилек', 'Учитель', 'шахматы')
+friend1 = Friend('Максим', 'Доктор', 'Рыбалка')
+friend2 = Friend('Анна', 'Дизайнер', 'рисование')
+friend3 = Friend('Актилек', 'Учитель', 'шахматы')
 
-Classmate1 = Classmate('Руслан', 'Cтудент', 'Группа А')
-Classmate2 = Classmate('Катя', 'Студент', 'Группа Б')
+classmate1 = Classmate('Руслан', 'Cтудент', 'Группа А')
+classmate2 = Classmate('Катя', 'Студент', 'Группа Б')
 
 print('Пример работы:')
-Classmate1.introduce()
-Classmate2.introduce()
-Friend1.introduce()
-Friend2.introduce()
-Friend3.introduce()
+classmate1.introduce()
+classmate2.introduce()
+friend1.introduce()
+friend2.introduce()
+friend3.introduce()
 
 # Доп задание 1
-Person1 = Person('Андрей', 'Менеджер')
-Classmate1 = Classmate('Иван', 'Студент', 'Группа А')
-Friend1 = Friend('Мария', 'Инженер', 'спорт')
-Person2 = Person('Ольга', 'Врач')
+person1 = Person('Андрей', 'Менеджер')
+classmate1 = Classmate('Иван', 'Студент', 'Группа А')
+friend1 = Friend('Мария', 'Инженер', 'спорт')
+person2 = Person('Ольга', 'Врач')
 
-People_list = [Person1, Classmate1, Friend1, Person2]
+people_list = [person1, classmate1, friend1, person2]
 
 print('Выход списка людей')
-for person_db in People_list:
+for person_db in people_list:
     person_db.introduce()
 
 
