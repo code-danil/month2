@@ -22,5 +22,3 @@ class Tesla(ElectricCar, Car):
 
 Tesla_car = Tesla()
 Tesla_car.start()
-
-

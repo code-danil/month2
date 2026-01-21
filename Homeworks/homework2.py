@@ -66,3 +66,6 @@ print('Пример работы с BestFriend')
 best_friend = BestFriend('Алиса', 'художница', 'Йога', 'Поездка в горы прошлым летом')
 best_friend.introduce()
 
+
+
+

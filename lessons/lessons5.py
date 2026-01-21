@@ -29,3 +29,4 @@ print('------')
 print(Swimming.__mro__)
 animal = Swimming()
 animal.move()
+
